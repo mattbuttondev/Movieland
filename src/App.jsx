@@ -3,9 +3,6 @@ import './App.css'
 import SearchIcon from './assets/search.svg'
 import MovieCard from './MovieCard'
 
-const OMDB_API_KEY = import.meta.env.VITE_REACT_OMDB_API_KEY;
-
-
 function App() {
   const [movies, setMovies] = useState([])
   const [loadingMovies, setLoadingMovies] = useState(true)
@@ -13,7 +10,7 @@ function App() {
 
   const searchMovies = async (title) => {
     setLoadingMovies(true)
-    const response = await fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=${OMDB_API_KEY}&s=${title}`)
+    const response = await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${VITE_REACT_OMDB_API_KEY}&s=${title}`)
     const data = await response.json()
     setMovies(data.Search)
     setLoadingMovies(false)
