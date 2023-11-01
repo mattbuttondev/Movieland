@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Movieland
 
-Currently, two official plugins are available:
+Discover the magic of cinema with the Movieland app, a revolutionary creation that brings the world of movies to your fingertips. Whether you're a devoted cinephile or just looking for a great film to watch, Movieland is your ultimate companion for all things cinema.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+
+![](https://s6.gifyu.com/images/S8c9f.gif)
+## Link
+https://mattbuttondev.github.io/movieland/
+## Tech Stack
+
+**Client:** React
+
