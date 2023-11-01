@@ -10,6 +10,7 @@ function App() {
 
   const searchMovies = async (title) => {
     setLoadingMovies(true)
+    console.log(import.meta.env.VITE_OMDB_KEY)
     const response = await fetch(`https://www.omdbapi.com/?i=tt3896198&apikey=${import.meta.env.VITE_OMDB_KEY}&s=${title}`)
     const data = await response.json()
     setMovies(data.Search)
