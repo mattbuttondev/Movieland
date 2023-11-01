@@ -12,7 +12,7 @@ jobs:
 
     env:
       VITE_OMDB_KEY: ${{ secrets.VITE_OMDB_KEY }}
-      run: echo ${{ secrets }}
+      run: echo ${{ vars.VITE_OMDB_KEY }}
 
     steps:
       - name: Checkout repo
