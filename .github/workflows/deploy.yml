@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      VITE_OMDB_KEY: ${{ secrets.VITE_OMDB_KEY }}
+      VITE_OMDB_KEY: ${{ vars.VITE_OMDB_KEY }}
       run: echo ${{ vars.VITE_OMDB_KEY }}
 
     steps:
