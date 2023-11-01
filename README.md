@@ -1,7 +1,7 @@
 
 # Movieland
 
-Discover the magic of cinema with the Movieland app, Built usng React and the OMDB API.
+Discover the magic of cinema with the Movieland app. Built usng React and the OMDB API.
 
 ## Demo
 
